@@ -1,0 +1,97 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    left: 80px;
+    margin-left: -17px;
+    position: absolute;
+    top: 40px;
+    z-index: 2;
+}
+
+.banner_unslider {
+    background: none repeat scroll 0 0 #5B4D3D;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 18px;
+    line-height: 24px;
+    overflow: auto;
+    position: relative;
+    text-align: center;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.05), 0 1px 2px rgba(0, 0, 0, 0.3);
+    width: 600px;
+	
+}
+.banner_unslider ul {
+    list-style: none outside none;
+    width: 300%;
+	
+}
+.banner_unslider ul li {
+    box-shadow: 0 -3px 6px rgba(0, 0, 0, 0.1) inset;
+    display: block;
+    float: left;
+    min-height: 350px;
+	/*padding: 60px 0 0px !important;*/
+    width: 33%;
+	margin:0;
+	
+}
+.banner_unslider h1, .banner_unslider h2 {
+    color: #FFFFFF;
+    font-size: 40px ;
+    line-height: 52px ;
+	margin-top:30px ;
+}
+.banner_unslider p {
+    color: #FFFFFF;
+    padding:0px 5px;
+	
+}
+.banner_unslider .btn {
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+    clear: both;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 25px 0 0;
+    padding: 9px 22px 7px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.banner_unslider .btn:hover {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.05);
+}
+.banner_unslider .btn:active {
+}
+.banner_unslider .btn, .banner_unslider .dot {
+}
+.banner_unslider .dots {
+    bottom: 10px;
+    left: 0;
+    position: absolute;
+    right: 0;
+}
+.banner_unslider .dots li {
+    border: 2px solid #FFFFFF;
+    border-radius: 6px;
+    cursor: pointer;
+    display: inline-block;
+    height: 10px;
+    margin: 0 4px;
+    opacity: 0.4;
+    text-indent: -999em;
+    transition: background 0.5s ease 0s, opacity 0.5s ease 0s;
+    width: 10px;
+}
+.banner_unslider .dots li.active {
+    background: none repeat scroll 0 0 #FFFFFF;
+    opacity: 1;
+}
+
